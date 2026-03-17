@@ -1,0 +1,30 @@
+body {
+    padding: 20px;
+    /*Padding puts invisible margins around the outside of all the
+    text to make it look nicer and not stick towards the edges*/
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+/*
+p is an elemenet, which is 1 point of value(specificity)
+
+Elements = 1, 
+example = 'p' or 'paragraph'
+
+Class, pseudo-class, attribute = 10, 
+example = test1
+
+ID = 100
+example = #demo
+
+Style attribute = 1000
+<p style="color: pink;">
+*/
+p {
+    margin-left: 30px;
+    color: red;
+
+}
