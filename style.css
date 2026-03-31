@@ -8,12 +8,17 @@ body {
     padding: 10px;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 
 .question-answer{
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width: 45rem;
+    max-width: 30rem;
 }
 /*This specifies the dimensions and constraints of each section as a container, defining how big or small the section is supposed to be*/
 
