@@ -5,13 +5,14 @@ html {
 }
 
 body {
-    padding: 10px;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgb(189, 71, 210), rgb(181, 125, 12))
 }
+/*Creates space and room between the edge of the screen and all the of the contents.*/
 
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
 }
 
 .question-answer{
@@ -47,7 +48,9 @@ Style attribute = 1000
 <p style="color: pink;">
 */
 p {
+    font-size: 20;
     margin-left: 30px;
-    color: red;
+    color: rgb(178, 34, 12);
     padding-right: 3rem;
+
 }
