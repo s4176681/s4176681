@@ -6,9 +6,11 @@ html {
 
 body {
     padding: 5px;
+    /*Creates space and room between the edge of the screen and all the of the contents.*/
     background: linear-gradient(to bottom, rgb(135, 49, 150), rgb(157, 108, 11))
+    /*Making a background colour for the page, a nice sunset like colour to ease out the eyes in contrast to a blank white screen*/
 }
-/*Creates space and room between the edge of the screen and all the of the contents.*/
+
 
 .grid-container{
     display: grid;
@@ -50,7 +52,7 @@ Style attribute = 1000
 p {
     font-size: 20;
     margin-left: 30px;
-    color: rgb(178, 34, 12);
+    color: rgb(137, 27, 10);
     padding-right: 3rem;
 
 }
