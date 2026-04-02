@@ -11,6 +11,12 @@ body {
     /*Making a background colour for the page, a nice sunset like colour to ease out the eyes in contrast to a blank white screen*/
 }
 
+iframe {
+    height: 400px;
+    width: 100%;
+    border: none;
+    /*optimising the view of the website properly so that its easy for the user to navigate even at its small size.*/
+}
 
 .grid-container{
     display: grid;
@@ -51,6 +57,11 @@ h1 {
 h2 {
     font-size: 20;
     color: rgb(119, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    font-size: 20;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
