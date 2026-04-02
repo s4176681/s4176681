@@ -15,13 +15,14 @@ body {
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
     /*Making a grid container for sections all under div.*/
 }
 
 .question-answer{
     border: 2px, solid, white;
     /*adding a border effect to make each section look distinguishable, and polished.*/
+    border-radius: 20px;
+    /*rounded corners are added using this command.*/
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
