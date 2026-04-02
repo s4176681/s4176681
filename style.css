@@ -15,14 +15,18 @@ body {
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
     /*Making a grid container for sections all under div.*/
 }
 
 .question-answer{
+    border: 2px, solid, white;
+    /*adding a border effect to make each section look distinguishable, and polished.*/
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 30rem;
+    /*General text constraint and specifying*/
 }
 /*This specifies the dimensions and constraints of each section as a container, defining how big or small the section is supposed to be*/
 
